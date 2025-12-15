@@ -1,0 +1,12 @@
+/* Add this @font-face rule to your style.css */
+@font-face {
+    font-family: 'Minecraft-JD'; /* The name you will use to reference the font */
+    
+    /* This is the direct link to the font file on your GitHub Pages site */
+    src: url('https://kmek347-lab.github.io/fonthost/fonts/Minecraft.otf') format('opentype'); 
+
+    font-weight: normal;
+    font-style: normal;
+    /* This is a best practice to ensure the page loads even if the font is slow */
+    font-display: swap; 
+}
